@@ -1,0 +1,42 @@
+[3 constansts]:  T. van Ritbergen and R. G. Stuart, Complete 2-loop quantum electrodynamic contributions to the muon lifetime in the fermi model, \textit{Phys. Rev. Lett.} \textbf{82}, 488 (1999).
+
+Complete 2-Loop Quantum Electrodynamic Contributions to the Muon Lifetime in the Fermi Model
+
+journal:  https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.82.488
+arxiv: https://arxiv.org/pdf/hep-ph/9812323.pdf  
+
+
+[easy important 1 undergrad]: D. Bosnar, et. al, \textit{Eur. J. Phys.} \textbf{39}, 4 (2018) 
+ 
+https://arxiv.org/abs/1801.07219
+
+[easy important 2 collider] M. S. Zisman, \textit{LBNL} (2011)
+
+https://arxiv.org/abs/1109.3086
+
+[cosmic ray muons slides] Anthony Tatum, "Cosmic Ray Muons," \textbf{https://uncw.edu/phy/documents/CosmicRayMuons} (February 1, 2019)
+
+https://uncw.edu/phy/documents/CosmicRayMuons.pdf
+
+
+%[gf determination ]: 
+
+%https://arxiv.org/abs/hep-ph/9904240
+
+[cosmic ray composition]:  M. R. Cahuantzi, \textit{J. Phys.: Conf. Ser.} \textbf{866}, 1 (2013)
+
+
+arrive:  https://arxiv.org/pdf/1005.5332.pdf
+journal:  https://www.sciencedirect.com/science/article/pii/S0370269310008725
+
+
+[griffiths pal physics]:  D. Griffiths, "Decay of the Muon," in \textit{Introduction to Elementary Particles}, Wiley-VCH; 2nd edition, Ch. 9, pp. 310 - 315
+
+====================================================================================================================================================================================
+
+
+http://www.physics.princeton.edu/~mcdonald/examples/EP/yang_ijmp_a27_1230005_12.pdf
+
+https://arxiv.org/ftp/arxiv/papers/1803/1803.07147.pdf
+
+https://www.thphys.uni-heidelberg.de/~maniatis/Lecture06/stachel-mulife.pdf
