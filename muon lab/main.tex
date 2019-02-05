@@ -1,5 +1,7 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{/Users/nikourriola/Desktop/Spring 2019/phys403/muon lab/}
 
 \title{Muon lifetime data system calibration and capture electronics configuration}
 %\title{Muon Lifetime Data Acquisition Configuration}
@@ -41,7 +43,7 @@ So, it is possible to measure the strength of the weak force by measuring muon l
     
     \vspace{5mm}
     
-    \textbf{Equation 1} Muon lifetime is proportional to the inverse square of the Fermi Coupling Constant.
+    \textbf{Equation 1.} Muon lifetime is proportional to the inverse square of the Fermi Coupling Constant.
     
 \end{center}
 
@@ -61,7 +63,7 @@ From Equation 1, it is clear that determining \textit{G$_{F}$} could be achieved
     
     \vspace{5mm}
     
-    \textbf{Equation 2} Muon lifetime is the inverse of disappearance rate
+    \textbf{Equation 2.} Muon lifetime is the inverse of disappearance rate
     
 \end{center}
 
@@ -80,7 +82,7 @@ A muon can dissappear by decaying according to the process shown in Equation 3. 
     
     \vspace{5mm}
     
-    \textbf{Equation 3} Muon decay equations for \textbf{a)} positively charged muons. \textbf{b)} negatively charged muons 
+    \textbf{Equation 3.} Muon decay equations for \textbf{a)} positively charged muons. \textbf{b)} negatively charged muons 
     
 \end{center}
   
@@ -94,7 +96,7 @@ However, negatively charged muons do not always decay. Some may interact with pr
     
     \vspace{5mm}
     
-    \textbf{Equation 4} Alternative disappearance process for negatively charged muons 
+    \textbf{Equation 4.} Alternative disappearance process for negatively charged muons 
     
 \end{center}
 
@@ -107,7 +109,7 @@ Thus, an expansion of Equation 2 holds for negatively charged muons. The expansi
     
     \vspace{5mm}
     
-    \textbf{Equation 5} Expansion of Equation 2 for negatively charged muons
+    \textbf{Equation 5.} Expansion of Equation 2 for negatively charged muons
     
 \end{center}
 
@@ -136,7 +138,56 @@ described above to record muon decay events over several days. The electronics c
 
 
  
- 
+ %References section
+
+%Procedure Section
+\section*{Procedure}
+\hspace{3.5mm} Much of the experimental set up was already assembled before taking ownership. Specifically, 28 photomultiplier tubes (PMT) were attached at opposite ends of 14 scintillator paddles. Ten scintillator paddles are arranged in a box magnet according to Figure 1. The remaining scintillators can also bee seen in Figure 1. 
+
+%Figure 1
+\begin{center}
+
+    \vspace{5mm}
+    
+    \includegraphics[width = \textwidth]{Figure1.png}   
+    
+    \vspace{5mm}
+    
+    \textbf{Figure 1.} Scintillator and photomultiplier tube (PMT) configuration
+    
+\end{center}
+
+It is reccomended that the integrity of the top and bottom paddles be checked using a flashlight and ammeter. Namely, shining a flashlight over the surface of the scintillator and using the ammeter to measure the PMT output current. This preliminary check is one way to coarsely determine if there are any faults with the scintillator material or PMTs before calibration. However, this check was not done during our run of the experiment. 
+
+The trigger electronics were built according to the circuit diagram shown in Figure 2. Models numbers for only select discriminators, time to digital converters (TDC), and logic units are given. These models can also be seen in Figure 2. 
+
+%Figure 2
+\begin{center}
+
+    \vspace{5mm}
+    
+    \includegraphics[width = \textwidth]{Figure2.png}
+
+    
+    \vspace{5mm}
+
+\end{center}
+
+The remaining logic and electronics are provided using standard nuclear instrumentation module (NIM) units.
+
+In accordance with the layout in Figure 2, the start trigger electronics were built first. The PMTs connected on either end of scintillator 1 and scintillator 2 were sent to single discriminators before entering logic AND gates. The discriminators provide a way of clearing up noise surrounding the event signal by outputting precise logic pulses based on the input to the discriminator.
+
+
+%Results Section 
+\section*{Results}
+
+%Discussion Section
+\section*{Discussion}
+
+%Conclusions Section
+\section*{Conclusion}
+
+%References Section
 \section*{References}
 
 \hspace{4mm} [1] \hspace{1mm}  Anthony Tatum, "Cosmic Ray Muons," \textbf{https://uncw.edu/phy}\newline (February 1, 2019)
