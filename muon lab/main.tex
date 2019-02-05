@@ -175,7 +175,10 @@ The trigger electronics were built according to the circuit diagram shown in Fig
 
 The remaining logic and electronics are provided using standard nuclear instrumentation module (NIM) units.
 
-In accordance with the layout in Figure 2, the start trigger electronics were built first. The PMTs connected on either end of scintillator 1 and scintillator 2 were sent to single discriminators before entering logic AND gates. The discriminators provide a way of clearing up noise surrounding the event signal by outputting precise logic pulses based on the input to the discriminator.
+In accordance with the layout in Figure 2, the start trigger electronics were built first. That is, the PMTs connected on either end of scintillator 1 and scintillator 2 were sent to single discriminators before entering logic AND gates. The discriminators provide a way of clearing up noise surrounding the event signal by outputting precise logic pulses based on the input signal. The pass through scintillators (BOTTOM in Figure 1) were connected much in the same way. The output of these single discriminators, however, went to a Quad 4 Fold Logic Unit according to Figure 2.
+
+Next, the stack was wired according to Figure 2. The PMT outputs of the stack were split prior to taking ownership of the experiment. So, one part of the split signal was delayed by 100 ns before being input to a 24 channel analog to digital converter (ADC) unit. The other part of the split signal was fed into either a single or quad discriminator, again, according to Figure 2. 
+
 
 
 %Results Section 
