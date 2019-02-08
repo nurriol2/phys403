@@ -6,7 +6,7 @@ def noise_verify(dir_name = '/testPulseData/'):
     noise_verify analyzes multichannel analyzer (MCA) raw data and returns basic information
 
     @input:
-    By default, searches through testPulseData directory. Can be used for MCA files located in other directories. 
+    By default, searches through testPulseData directory. Can be used for MCA files located in other directories.
 
     @output:
     Threshold:  A number chosen arbitrarily. Counts below this number are considered noise. This noise is removed before calculating the total number of counts in the data set.
@@ -74,11 +74,8 @@ def noise_verify(dir_name = '/testPulseData/'):
     total_count = np.sum(signal_array)
     logging.debug('total count = %i' %total_count)
 
-    #basic statistics
-    #threshold
-    #maximum of data
-    #total count
 
+    #formatted console output
     print('RESULTS:\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i' %(threshold, maximum_count, total_count))
 
     return (threshold, maximum_count, total_count)
