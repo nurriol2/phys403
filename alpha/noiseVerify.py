@@ -2,11 +2,23 @@
 
 def noise_verify(dir_name = '/testPulseData/'):
 
+    '''
+    noise_verify analyzes multichannel analyzer (MCA) raw data and returns basic information
+
+    @output:
+    Threshold:  A number chosen arbitrarily. Counts below this number are considered noise. This noise is removed before calculating the total number of counts in the data set.
+
+    Maximum count:  The largest data point in the data setself.
+
+    Total count:  The grand sum of counts in the data set, after noise has been removed.
+    '''
+
     import os
     import numpy as np
     import logging
     logging.basicConfig(level = logging.DEBUG, format = '%(asctime)s - %(levelname)s - %(message)s')
 
+    #the file you wish to verify
     data_name = input('data name:  ')
 
     #open (constant pressure) file
