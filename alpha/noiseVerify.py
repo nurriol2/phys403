@@ -8,7 +8,10 @@ def noise_verify(dir_name = '/testPulseData/'):
     @input:
     By default, searches through testPulseData directory. Can be used for MCA files located in other directories.
 
-    @output:
+    @output
+    Filepath: (String) The full filepath of the file noise_verify acts on  
+
+
     Threshold:  A number chosen arbitrarily. Counts below this number are considered noise. This noise is removed before calculating the total number of counts in the data set.
 
     Maximum count:  The largest data point in the data setself.
@@ -76,6 +79,6 @@ def noise_verify(dir_name = '/testPulseData/'):
 
 
     #formatted console output
-    print('RESULTS:\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i' %(threshold, maximum_count, total_count))
+    print('RESULTS:\Filepath:  %s\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i' %(file_path, threshold, maximum_count, total_count))
 
-    return (threshold, maximum_count, total_count)
+    return (file_path, threshold, maximum_count, total_count)
