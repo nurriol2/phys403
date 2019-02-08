@@ -5,6 +5,9 @@ def noise_verify(dir_name = '/testPulseData/'):
     '''
     noise_verify analyzes multichannel analyzer (MCA) raw data and returns basic information
 
+    @input:
+    By default, searches through testPulseData directory. Can be used for MCA files located in other directories. 
+
     @output:
     Threshold:  A number chosen arbitrarily. Counts below this number are considered noise. This noise is removed before calculating the total number of counts in the data set.
 
