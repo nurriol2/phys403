@@ -6,8 +6,9 @@ def noise_verify(dir_name, data_name):
     noise_verify analyzes multichannel analyzer (MCA) raw data and returns basic information
 
     @input:
-
-
+    dir_name:  The parent directory containing the file to verify.
+    data_name:  The file to verify.
+    
     @output
     Filepath: (String) The full filepath of the file noise_verify acts on
 
