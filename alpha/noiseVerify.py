@@ -80,4 +80,4 @@ def noise_verify(dir_name, data_name):
     #formatted console output
     print('RESULTS:\nFilepath:  %s\nFile SHORT:  %s\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i' %(file_path, data_name, threshold, maximum_count, total_count))
 
-    return (file_path, data_name, threshold, maximum_count, total_count)
+    return ('RESULTS:\nFilepath:  %s\nFile SHORT:  %s\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i\n\n' %(file_path, data_name, threshold, maximum_count, total_count))
