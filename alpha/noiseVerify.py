@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 
-def noise_verify(dir_name = '/testPulseData/'):
+def noise_verify(dir_name, data_name):
 
     '''
     noise_verify analyzes multichannel analyzer (MCA) raw data and returns basic information
 
     @input:
-    By default, searches through testPulseData directory. Can be used for MCA files located in other directories.
+
 
     @output
-    Filepath: (String) The full filepath of the file noise_verify acts on  
+    Filepath: (String) The full filepath of the file noise_verify acts on
 
 
     Threshold:  A number chosen arbitrarily. Counts below this number are considered noise. This noise is removed before calculating the total number of counts in the data set.
@@ -24,16 +24,13 @@ def noise_verify(dir_name = '/testPulseData/'):
     import logging
     logging.basicConfig(level = logging.DEBUG, format = '%(asctime)s - %(levelname)s - %(message)s')
 
-    #the file you wish to verify
-    data_name = input('data name:  ')
-
-    #open (constant pressure) file
+    #open file
     cwd = os.getcwd()
 
     #UN/Comment to toggle logging ON/OFF
     logging.disable(logging.DEBUG)
 
-    file_path = cwd + dir_name + data_name
+    file_path = cwd + '/' + dir_name + '/' + data_name
     logging.debug('file_path:  %s' %file_path)
 
     file = open(file_path)
