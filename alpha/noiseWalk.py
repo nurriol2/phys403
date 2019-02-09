@@ -10,7 +10,7 @@ def noise_walk():
 
     @output:
     noise_walk prints basic data to console (SEE:  noise_verify).
-    noise_walk writes this data to a .txt file. (IMPLEMENTATION TO COME)
+    noise_walk writes this data to countSummary.txt.
     '''
 
     import os
@@ -22,6 +22,9 @@ def noise_walk():
 
     for root, dirs, files in os.walk(constant_pressure_directory):
         for filename in files:
-            noise_verify(constant_pressure_directory, filename)
+            result = noise_verify(constant_pressure_directory, filename)
+
+            summary_file = open('countSummary.txt', 'a')
+            summary_file.write(result)
 
     return
