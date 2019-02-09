@@ -8,16 +8,17 @@ def noise_verify(dir_name, data_name):
     @input:
     dir_name:  The parent directory containing the file to verify.
     data_name:  The file to verify.
-    
+
     @output
     Filepath: (String) The full filepath of the file noise_verify acts on
 
+    File SHORT:  (String) The analyzed file name
 
-    Threshold:  A number chosen arbitrarily. Counts below this number are considered noise. This noise is removed before calculating the total number of counts in the data set.
+    Threshold:  (Integer) A number chosen arbitrarily. Counts below this number are considered noise. This noise is removed before calculating the total number of counts in the data set.
 
-    Maximum count:  The largest data point in the data setself.
+    Maximum count:  (Integer) The largest data point in the data setself.
 
-    Total count:  The grand sum of counts in the data set, after noise has been removed.
+    Total count:  (Integer) The grand sum of counts in the data set, after noise has been removed.
     '''
 
     import os
@@ -77,6 +78,6 @@ def noise_verify(dir_name, data_name):
 
 
     #formatted console output
-    print('RESULTS:\Filepath:  %s\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i' %(file_path, threshold, maximum_count, total_count))
+    print('RESULTS:\nFilepath:  %s\nFile SHORT:  %s\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i' %(file_path, threshold, maximum_count, total_count))
 
-    return (file_path, threshold, maximum_count, total_count)
+    return (file_path, data_name threshold, maximum_count, total_count)
