@@ -1,0 +1,175 @@
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/220mmHg/data_9.4cm_220mmHg.mca
+File SHORT:  data_9.4cm_220mmHg.mca
+Threshold = 10
+Data Maximum = 43
+Total Count (Signal only) = 177
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/260mmHg/data_9.4cm_260mmHg.mca
+File SHORT:  data_9.4cm_260mmHg.mca
+Threshold = 10
+Data Maximum = 34
+Total Count (Signal only) = 133
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/260mmHg/data_11.4cm_260mmHg.mca
+File SHORT:  data_11.4cm_260mmHg.mca
+Threshold = 10
+Data Maximum = 7
+Total Count (Signal only) = 0
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/260mmHg/data_13.4cm_260mmHg.mca
+File SHORT:  data_13.4cm_260mmHg.mca
+Threshold = 10
+Data Maximum = 15
+Total Count (Signal only) = 125
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/300mmHg/data_9.4cm_300mmHg.mca
+File SHORT:  data_9.4cm_300mmHg.mca
+Threshold = 10
+Data Maximum = 33
+Total Count (Signal only) = 102
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/300mmHg/data_11.4cm_300mmHg.mca
+File SHORT:  data_11.4cm_300mmHg.mca
+Threshold = 10
+Data Maximum = 21
+Total Count (Signal only) = 97
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/300mmHg/data_13.4cm_300mmHg.mca
+File SHORT:  data_13.4cm_300mmHg.mca
+Threshold = 10
+Data Maximum = 14
+Total Count (Signal only) = 73
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/337mmHg/data_11.4cm_337mmHg.mca
+File SHORT:  data_11.4cm_337mmHg.mca
+Threshold = 10
+Data Maximum = 22
+Total Count (Signal only) = 376
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/337mmHg/data_9.4cm_337mmHg.mca
+File SHORT:  data_9.4cm_337mmHg.mca
+Threshold = 10
+Data Maximum = 22
+Total Count (Signal only) = 376
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/337mmHg/data_13.4cm_337mmHg.mca
+File SHORT:  data_13.4cm_337mmHg.mca
+Threshold = 10
+Data Maximum = 12
+Total Count (Signal only) = 23
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/377mmHg/data_13.4cm_377mmHg.mca
+File SHORT:  data_13.4cm_377mmHg.mca
+Threshold = 10
+Data Maximum = 14
+Total Count (Signal only) = 26
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/377mmHg/data_11.4cm_377mmHg.mca
+File SHORT:  data_11.4cm_377mmHg.mca
+Threshold = 10
+Data Maximum = 27
+Total Count (Signal only) = 381
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/377mmHg/data_9.4cm_377mmHg.mca
+File SHORT:  data_9.4cm_377mmHg.mca
+Threshold = 10
+Data Maximum = 28
+Total Count (Signal only) = 85
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_0.9V.mca
+File SHORT:  test_pulse_0.9V.mca
+Threshold = 10
+Data Maximum = 187
+Total Count (Signal only) = 1023
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_0.5V.mca
+File SHORT:  test_pulse_0.5V.mca
+Threshold = 10
+Data Maximum = 617
+Total Count (Signal only) = 3233
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_1.1V.mca
+File SHORT:  test_pulse_1.1V.mca
+Threshold = 10
+Data Maximum = 193
+Total Count (Signal only) = 949
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_1.0V.mca
+File SHORT:  test_pulse_1.0V.mca
+Threshold = 10
+Data Maximum = 495
+Total Count (Signal only) = 2796
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_0.8V.mca
+File SHORT:  test_pulse_0.8V.mca
+Threshold = 10
+Data Maximum = 254
+Total Count (Signal only) = 1356
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/copypulse.mca
+File SHORT:  copypulse.mca
+Threshold = 10
+Data Maximum = 617
+Total Count (Signal only) = 3233
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_1.3V.mca
+File SHORT:  test_pulse_1.3V.mca
+Threshold = 10
+Data Maximum = 176
+Total Count (Signal only) = 915
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_0.7V.mca
+File SHORT:  test_pulse_0.7V.mca
+Threshold = 10
+Data Maximum = 186
+Total Count (Signal only) = 916
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_0.6V.mca
+File SHORT:  test_pulse_0.6V.mca
+Threshold = 10
+Data Maximum = 175
+Total Count (Signal only) = 851
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_1.2V.mca
+File SHORT:  test_pulse_1.2V.mca
+Threshold = 10
+Data Maximum = 193
+Total Count (Signal only) = 949
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_1.5V.mca
+File SHORT:  test_pulse_1.5V.mca
+Threshold = 10
+Data Maximum = 163
+Total Count (Signal only) = 808
+
+RESULTS:
+Filepath:  /Users/nikourriola/Desktop/sp19/phys403/alpha/testPulseData/test_pulse_1.4V.mca
+File SHORT:  test_pulse_1.4V.mca
+Threshold = 10
+Data Maximum = 283
+Total Count (Signal only) = 1489
+
