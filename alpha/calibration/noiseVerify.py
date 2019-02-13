@@ -76,8 +76,8 @@ def noise_verify(dir_name, data_name):
     total_count = np.sum(signal_array)
     logging.debug('total count = %i' %total_count)
 
-
+    console_output = 'RESULTS:\nFilepath:  %s\nFile SHORT:  %s\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i' %(file_path, data_name, threshold, maximum_count, total_count)
     #formatted console output
-    print('RESULTS:\nFilepath:  %s\nFile SHORT:  %s\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i' %(file_path, data_name, threshold, maximum_count, total_count))
+    print(console_output)
 
-    return ('RESULTS:\nFilepath:  %s\nFile SHORT:  %s\nThreshold = %i\nData Maximum = %i\nTotal Count (Signal only) = %i\n\n' %(file_path, data_name, threshold, maximum_count, total_count))
+    return console_output
